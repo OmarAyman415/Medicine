@@ -1,0 +1,38 @@
+
+
+.test{
+    height: 2000px;
+    background: #d0b345;
+    line-height: 300px;
+}
+.logo {
+    width: 150px;
+}
+
+.title{
+    font-size: 35px;
+    color: #ffffff;
+}
+
+hr.rounded {
+    border-top: 5px solid #ffd500;
+    border-radius: 5px;
+}
+
+.navbar .col-lg-2 .row .col-lg-4{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+.navbar .col-lg-2 .row  .col-lg-4.last {
+    border-left: 1px solid #FFF;
+}
+
+/*--------------------- fonts ---------------------------*/
+
+@font-face{
+    font-family: jost;
+    src: url(../font/Jost/static/Jost-Regular.ttf)
+}

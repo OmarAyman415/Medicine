@@ -1,0 +1,9 @@
+Large screen        lg
+Medium screen       md
+small screen        sm
+Extra small screen  xs
+
+
+grid system 12 unit
+
+col = column

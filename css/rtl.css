@@ -1,0 +1,71 @@
+.navbar{
+    height: 230px;
+
+}
+
+.container-fluid{
+}
+
+.navbar-nav{
+    font-size: 20px;
+    font-family: jost, serif;
+    margin-left: -60px;
+}
+.nav-item{
+    text-align: center;
+
+    border-left: 1px solid #fff;
+    padding-top:9px;
+    height: 40px;
+    width: 170px;
+
+}
+.nav-link {
+    margin-top: -10px;
+}
+
+.navbar-light .navbar-nav .nav-link.active{
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 22px;
+}
+.navbar-light .navbar-nav .nav-link.dropdown-toggle{
+    color:white;
+    font-size: 22px;
+}
+
+.navbar-light .navbar-nav .dropdown-menu .dropdown-item{
+    color: white;
+    font-size: 22px;
+}
+
+.navbar-light .navbar-nav .dropdown-menu .dropdown-item:hover {
+    color: rgba(0, 0, 0, 0.9);
+}
+
+.dropdown-menu{
+    background: rgb(0,103,159);
+
+}
+
+.navbar-light .navbar-nav .nav-link.entry{
+    color: white;
+    font-size: 22px;
+}
+
+
+
+:root{
+    --bs-dark-rgb: 0,103,159;
+    --bs-light-rgb: 0,103,159;
+}
+.container{
+    margin-right: 20%;
+
+}
+
+/*--------------------- fonts ---------------------------*/
+
+@font-face{
+    font-family: jost;
+    src: url(../font/Jost/static/Jost-Regular.ttf)
+}
